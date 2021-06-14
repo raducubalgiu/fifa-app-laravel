@@ -1,0 +1,14 @@
+.mx-auto {
+    .pagination {
+        .page-item {
+    
+            &-link {
+                color: $color-white !important;
+            }
+        }
+    
+        .page-item .active {
+            background-image: $color-linear !important;
+        }
+    }   
+}

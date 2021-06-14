@@ -1,0 +1,43 @@
+/*************************************/
+/************** ADMIN ****************/
+
+// Abstracts
+@import "home/abstracts/variables";
+@import "home/abstracts/mixins";
+
+// Base
+@import "home/base/typography";
+@import "home/base/base";
+@import "home/base/utilities";
+
+// Components
+@import "home/components/score-game";
+@import "home/components/buttons";
+@import "home/components/pagination";
+@import "home/components/section-hero";
+@import "home/components/card-game";
+@import "home/components/search-bar";
+@import "home/components/icons";
+@import "home/components/table-list-championship";
+@import "home/components/table-list-ranking";
+@import "home/components/table-game-list";
+@import "home/components/table-users-list";
+@import "home/components/user-profile";
+@import "home/components/login";
+@import "home/components/register";
+@import "home/components/section-welcome-hero";
+
+// Layout
+@import "home/layout/navigation";
+
+// Pages
+@import "home/pages/welcome/index";
+@import "home/pages/home/index";
+
+// Import Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');

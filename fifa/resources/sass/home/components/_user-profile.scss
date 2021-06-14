@@ -1,0 +1,42 @@
+.user-profile {
+
+    .user-profile-image {
+        width: 11rem !important;
+        height: auto;
+
+        @include respond(tab-port) {
+            width: 6rem !important;
+            height: auto;
+        }
+    }
+    
+    .user-profile-name {
+        font-size: 1.8rem !important;
+        text-transform: uppercase;
+        color: $color-black !important;
+        font-weight: 600 !important;
+
+        @include respond(tab-land) {
+            font-size: .8rem !important;
+            font-weight: 700 !important;
+            margin-bottom: .1rem !important;
+        }
+    }
+
+    .user-profile-username {
+        font-size: 1.4rem !important;
+        color: $color-black !important;
+
+        @include respond(tab-land) {
+            font-size: .9rem !important;
+        }
+    }
+
+    .user-profile-role {
+        font-size: .9rem !important;
+
+        @include respond(tab-land) {
+            font-size: .8rem !important;
+        }
+    }
+}

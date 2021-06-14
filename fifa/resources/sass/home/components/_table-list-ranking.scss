@@ -1,0 +1,68 @@
+.table-list-ranking {
+    .ranking-date {
+        @include respond(tab-port) {
+            font-size: .9rem !important;
+        }
+    }
+    
+    table {
+        thead {
+            @include respond(tab-port) {
+                font-size: .8rem !important;
+            }
+            
+            th {
+                &:nth-child(2) {
+                    @include respond(tab-port) {
+                        display: none !important;   
+                    }
+                }
+
+                &:nth-child(5) {
+                    @include respond(tab-port) {
+                        display: none !important;   
+                    }
+                }
+            } 
+        }
+    
+        tbody {
+            @include respond(tab-port) {
+                font-size: .9rem !important;
+            }
+
+            tr {
+                &:first-child {
+                    color: $color-primary-dark !important;
+                    font-weight: 600 !important;  
+                }
+
+                td {
+                    &:nth-child(2) {
+                        @include respond(tab-port) {
+                            display: none !important; 
+                        }
+                    }
+    
+                    &:nth-child(5) {
+                        @include respond(tab-port) {
+                            display: none !important;   
+                        }
+                    }
+                }    
+            }
+        }   
+    }
+
+    .card {
+        
+        &-header {
+
+            h6 {
+                @include respond(tab-port) {
+                    font-size: .95rem !important;
+                }   
+            }
+        }
+    }
+}

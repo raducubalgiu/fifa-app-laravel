@@ -1,0 +1,5 @@
+.card-games {
+    @include respond(tab-land) {
+        margin-top: 2rem !important;
+    }
+}

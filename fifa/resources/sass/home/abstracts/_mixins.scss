@@ -1,0 +1,31 @@
+// MEDIA QUERY MANAGER
+@mixin respond($breakpoint) {
+    
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 575.98px) { @content };    
+    }
+    @if $breakpoint == tab-port {
+        @media only screen and (max-width: 767.98px) { @content };     
+    }
+    @if $breakpoint == tab-land {
+        @media only screen and (max-width: 991.98px) { @content };    
+    }
+    @if $breakpoint == big-desktop {
+        @media only screen and (min-width: 1199.98px) { @content };    
+    }
+}
+
+@mixin winner() {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 700;
+}
+
+@mixin equal() {
+    background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

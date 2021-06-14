@@ -1,0 +1,18 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Custom
+$color-white: #fff;
+$color-black: #1d1f22;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-linear: linear-gradient(rgba($color-primary-light, 0.99), rgba($color-primary-dark, 0.99));
+$color-linear-secondary: linear-gradient(rgba($color-secondary-dark, 0.99), rgba($color-secondary-light, 0.99));

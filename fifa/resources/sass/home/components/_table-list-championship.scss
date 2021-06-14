@@ -1,0 +1,43 @@
+.table-championships-list {
+    table {
+        thead {
+            @include respond(tab-port) {
+                font-size: .8rem !important;
+            }
+            
+            th {
+                &:nth-child(3) {
+                    display: none !important;
+                }
+            } 
+        }
+    
+        tbody {
+            @include respond(tab-port) {
+                font-size: .9rem !important;
+            }
+            
+            td {
+                &:nth-child(3) {
+                    display: none !important;
+                }
+            } 
+        }   
+    }
+
+    .card {
+        
+        &-header {
+
+            h6 {
+                @include respond(tab-port) {
+                    font-size: .95rem !important;
+                }   
+            }
+        }
+    }
+
+    .winner-champ {
+        @include winner();
+    }
+}

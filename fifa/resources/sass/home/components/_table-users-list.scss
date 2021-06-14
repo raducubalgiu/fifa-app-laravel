@@ -1,0 +1,27 @@
+.table-list-users {
+    table {
+        thead {
+            @include respond(tab-port) {
+                font-size: .8rem !important;
+            }
+        }
+    
+        tbody {
+            @include respond(tab-port) {
+                font-size: .9rem !important;
+            }
+        }   
+    }
+
+    .card {
+        
+        &-header {
+
+            h6 {
+                @include respond(tab-port) {
+                    font-size: .95rem !important;
+                }   
+            }
+        }
+    }
+}

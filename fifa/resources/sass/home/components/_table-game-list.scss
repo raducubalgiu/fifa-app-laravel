@@ -1,0 +1,27 @@
+.table-game-list {
+    table {
+        thead {
+            @include respond(tab-port) {
+                font-size: .8rem !important;
+            }
+
+            th {
+                &:nth-child(1) {
+                    display: none !important;
+                }
+            } 
+        }
+
+        tbody {
+            @include respond(tab-port) {
+                font-size: .9rem !important;
+            }
+
+            td {
+                &:nth-child(1) {
+                    display: none !important;
+                }
+            } 
+        }
+    }
+}

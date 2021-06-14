@@ -1,0 +1,50 @@
+.player-card {
+    .heading-player-card {
+        @include winner();
+        
+        @include respond(tab-port) {
+            font-size: 1rem !important;
+        }
+    }
+}
+
+.player-image-score {
+    width: 10rem !important;
+
+    @include respond(tab-port) {
+        width: 5rem !important;
+    }
+}
+
+.game-score {
+    font-weight: 700 !important;
+    font-size: 2.5rem !important;
+    color: rgba(0, 0, 0, 0.9) !important;
+
+    @include respond(tab-port) {
+        font-size: 1.4rem !important;
+    }
+}
+
+.player-card-statistic {   
+    @include respond(tab-port) {
+        font-size: .9rem !important;
+    }
+}
+
+.statistic-description {
+    @include respond(tab-port) {
+        font-size: .9rem !important;
+    } 
+}
+
+.player-name-title {
+    font-size: 2rem !important;
+    margin-left: .5rem;
+    
+    @include winner();
+
+    @include respond(tab-land) {
+        font-size: 1.1rem !important;
+    }
+}

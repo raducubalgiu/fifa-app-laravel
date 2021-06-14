@@ -1,0 +1,12 @@
+.wrapper {
+    padding: 2.5rem 0 !important;
+    margin-top: 6rem !important;
+
+    @include respond(tab-land) {
+        padding: 0 !important;
+    }
+}
+
+#content {
+    min-height: 90vh !important;
+}

@@ -1,0 +1,9 @@
+.section-welcome-hero {
+    background-color: $color-white !important;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0 7.5rem 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
+            clip-path: polygon(0 0, 100% 0, 100% 30%, 0 100%);
+            z-index: 100;
+}
