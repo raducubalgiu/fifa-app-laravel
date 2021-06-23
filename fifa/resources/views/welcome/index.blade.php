@@ -46,8 +46,6 @@
                     <div class="how-it-works-box text-center">
                         <h3 class="heading-welcome-primary">Cum functioneaza?</h3>
                     </div>
-
-                    
                 </div>
             </div>
         </section>

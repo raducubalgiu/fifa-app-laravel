@@ -19,7 +19,7 @@ class ChampionshipController extends Controller
     public function index() {
         $user = auth()->user();
 
-        $championships = $user->championships()->orderBy('id', 'desc')->paginate(5);
+        $championships = $user->championships->orderBy('id', 'desc')->paginate(5);
 
         return view('admin.championships.index', [
             'championships' => $championships
